@@ -1,0 +1,2 @@
+# kickstarter
+NYCDA group project 
