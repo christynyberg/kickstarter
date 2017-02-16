@@ -1,0 +1,72 @@
+html, body, h1, h2, h3, ul, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+h1 {
+  color: #000000;
+  margin: 0 0 15px 0;
+  font-family: 'Open Sans Condensed';
+  font-size: 46pt
+}
+h2 {
+  color: #000000;
+  margin: 15px 0 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22pt
+}
+h3 {
+  color: #333333;
+  margin: 20px 0 5px 0;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 2px;
+  font-family: 'Open Sans Condensed';
+  font-size: 16pt
+}
+h4 {
+  color: #666666;
+  margin: 10px 0 10px 0;
+}
+p {
+  color: #444444;
+  margin: 0 0 10px 0;
+  font-family: 'Playfair Display', serif;
+}
+a {
+  color: #440000;
+}
+
+body {
+  padding: 0;
+}
+ul {
+  font-family: 'Open Sans Condensed';
+  text-decoration: none;
+}
+a:link {
+  font-family: 'Open Sans Condensed';
+  text-decoration: none;
+}
+a:hover {
+  color: #f42298;
+  background-color: none;
+}
+.nav {
+  padding: 0;
+  font-family: 'Open Sans Condensed';
+  text-decoration: none;
+}
+.nav li {
+  display: inline;
+  padding-right: 20px;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.header {
+  padding: 15px;
+}
+.content-section {
+  padding: 15px;
+  width: 450px;
+}
