@@ -37,6 +37,7 @@ body {
   height: 500px;
   position: relative;
   background-repeat:no-repeat;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -125,4 +126,80 @@ footer{
   font-family: 'Lato', sans-serif;
   font-size: 12pt;
   padding-top: 40px;
+}
+
+
+/* Gallery CSS*/
+
+.blue-bombs {
+  background-image: url(images/backgroundblue.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1280px;
+  position: relative;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.white-bombs {
+  background-image: url(images/backgroundwhite.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1280px;
+  position: relative;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.pink-bombs {
+  background-image: url(images/backgroundpink.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1280px;
+  position: relative;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.green-bombs {
+  background-image: url(images/backgroundgreen.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1280px;
+  position: relative;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.gold-bombs {
+  background-image: url(images/backgroundgold.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1280px;
+  position: relative;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.gallery-images{
+display: block;
+}
+
+.color-title{
+  display: inline-block;
+  color: white;
+  font-size: 80px;
+  font-family: 'Barrio', cursive;
+}
+
+.gallery-images img {
+  display: inline;;
+  width: 32%;
+  height: 350px;
+}
+
+.content-header h1 {
+  font-family: 'Barrio', cursive;
+  color:white;
+  font-size: 180px;
 }
