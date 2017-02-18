@@ -131,12 +131,18 @@ footer{
 
 /* Gallery CSS*/
 
+.gallery{
+  background-position: center;
+  height: 500px;
+  width:100%;
+  position: relative;
+  background-repeat:no-repeat;
+  margin-bottom: 30px;
+}
+
 .blue-bombs {
   background-image: url(images/backgroundblue.jpg);
   background-position: center;
-  height: 500px;
-  width: 1280px;
-  position: relative;
   background-repeat:no-repeat;
   margin: 35px auto;
 }
@@ -144,9 +150,6 @@ footer{
 .white-bombs {
   background-image: url(images/backgroundwhite.jpg);
   background-position: center;
-  height: 500px;
-  width: 1280px;
-  position: relative;
   background-repeat:no-repeat;
   margin: 35px auto;
 }
@@ -154,9 +157,6 @@ footer{
 .pink-bombs {
   background-image: url(images/backgroundpink.jpg);
   background-position: center;
-  height: 500px;
-  width: 1280px;
-  position: relative;
   background-repeat:no-repeat;
   margin: 35px auto;
 }
@@ -164,9 +164,6 @@ footer{
 .green-bombs {
   background-image: url(images/backgroundgreen.jpg);
   background-position: center;
-  height: 500px;
-  width: 1280px;
-  position: relative;
   background-repeat:no-repeat;
   margin: 35px auto;
 }
@@ -174,9 +171,6 @@ footer{
 .gold-bombs {
   background-image: url(images/backgroundgold.jpg);
   background-position: center;
-  height: 500px;
-  width: 1280px;
-  position: relative;
   background-repeat:no-repeat;
   margin: 35px auto;
 }
@@ -193,13 +187,14 @@ display: block;
 }
 
 .gallery-images img {
-  display: inline;;
-  width: 32%;
-  height: 350px;
+  display: inline;
+  width: 25%;
+  height: 320px;
+  margin:0px 5px;
 }
 
 .content-header h1 {
   font-family: 'Barrio', cursive;
   color:white;
-  font-size: 180px;
+  font-size: 200px;
 }
