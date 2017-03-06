@@ -1,6 +1,6 @@
-* {
+/* {
   border: 1px solid rgba(0, 0, 0, 0.3);
-}
+}*/
 
 body {
   background-color: lavenderblush;
@@ -126,4 +126,82 @@ footer{
   font-family: 'Lato', sans-serif;
   font-size: 12pt;
   padding-top: 40px;
+}
+
+/* Gallery CSS*/
+
+.gallery{
+  background-position: center;
+  width:100%;
+  position: relative;
+  background-repeat:no-repeat;
+  margin-bottom: 30px;
+}
+
+.blue-bombs {
+  background-image: url(images/backgroundblue.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.white-bombs {
+  background-image: url(images/backgroundwhite.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.pink-bombs {
+  background-image: url(images/backgroundpink.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.green-bombs {
+  background-image: url(images/backgroundgreen.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.gold-bombs {
+  background-image: url(images/backgroundgold.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 35px auto;
+}
+
+.gallery-images{
+display: block;
+}
+
+.color-title{
+  display: inline-block;
+  color: white;
+  font-size: 80px;
+  font-family: 'Barrio', cursive;
+}
+
+.gallery-images img {
+  display: inline;
+  width: 25%;
+  height: 320px;
+  margin:0px 5px;
+}
+
+.content-header h1 {
+  font-family: 'Barrio', cursive;
+  color:white;
+  font-size: 120px;
+  margin: auto;
+  position: absolute;
+  padding: 25px;
+  letter-spacing: 18pt;
+  text-align: center;
+  top: 180px;
+  width: 70%;
+  z-index: 1;
+  display: inline;
 }
